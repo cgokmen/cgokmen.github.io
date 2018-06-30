@@ -1,0 +1,101 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Cem Gokmen
+email: cem@cemgokmen.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Cem Gokmen's Personal Website
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://new.cemgokmen.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+author:
+  name: Cem Gokmen
+  photo: /assets/images/bio-photo.jpg
+  bio: |-
+    Undergraduate researcher, teaching assistant, francophone.<br /><br />
+    B.Sc. candidate in CS, Georgia Tech '18.
+  location: Atlanta, GA / Istanbul, TR
+
+social:
+  - title: LinkedIn
+    link: "https://www.linkedin.com/in/cgokmen/"
+  - title: GitHub
+    link: "https://github.com/skyman"
+  - title: Twitter
+    link: "https://twitter.com/sultanskyman"
+  - title: Instagram
+    link: "https://www.instagram.com/sultanskyman/"
+  - title: Steam
+    link: "https://steamcommunity.com/id/funstein"
+
+academic:
+  - title: Google Scholar
+    link: "https://scholar.google.com/citations?hl=en&user=wCiI8oUAAAAJ"
+  - title: ORCID
+    link: "https://orcid.org/0000-0001-9446-6052"
+#  - title: Zotero
+#    link: "#"
+  - title: arXiv
+    link: "http://arxiv.org/a/gokmen_c_1"
+
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
+plugins:
+ - jekyll-paginate
+ - jekyll-sitemap
+ - jekyll-gist
+ - jekyll-seo-tag
+ - jekyll-feed
+
+include:
+  - _pages
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - node_modules
+ - .idea
+ - vendor/bundle/
+ - vendor/cache/
+ - vendor/gems/
+ - vendor/ruby/

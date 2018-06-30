@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+{% include head.html %}
+
+<body id="index" class="home">
+  {% include header.html %}
+
+<div class="container">
+  <div class="section columns">
+    <div class="column is-one-fifth-desktop is-one-quarter-tablet is-hidden-print" id="sidebar">
+      <aside class="menu">
+        {% include bio.html %}
+
+        {% include social.html %}
+      </aside>
+    </div>
+
+    <div class="column is-four-fifths-desktop is-three-quarters-tablet">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}
+</body>
+</html>

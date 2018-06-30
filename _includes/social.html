@@ -1,0 +1,48 @@
+{% assign fa = "bitbucket, github, gitlab, 500px, flickr, instagram, etsy, pinterest, quora, reddit, bandcamp, mixcloud, soundcloud, spotify, steam, medium, tumblr, wordpress, slideshare, linkedin, twitter, weibo, weixin, vimeo, youtube" | split: ", " %}
+{% assign ai = "mendeley, orcid, zotero, arxiv, figshare, impactstory, overleaf, google-scholar" | split: ", " %}
+
+<p class="menu-label">Social</p>
+<ul class="menu-list">
+  {% for item in site.social %}
+    {% assign key = item.title | downcase %}
+    <li><a href="{{ item.link }}">
+      <span class="icon is-small">
+        {% if fa contains key %}
+          <i class="fa fa-{{ item.title|downcase }} fa-fw"></i>
+        {% elsif key == 'facebook' %}
+          <i class="fa fa-facebook-official fa-fw"></i>
+        {% elsif key == 'google+' %}
+          <i class="fa fa-google-plus fa-fw"></i>
+        {% elsif key == 'last.fm' %}
+          <i class="fa fa-lastfm fa-fw"></i>
+        {% elsif key == 'stack overflow' %}
+          <i class="fa fa-stack-overflow fa-fw"></i>
+        {% else %}
+          <i class="fa fa-globe fa-fw"></i>
+        {% endif %}
+      </span>
+      <span class="link-text">{{ item.title }}</span>
+    </a></li>
+  {% endfor %}
+</ul>
+
+<p class="menu-label">Academic</p>
+<ul class="menu-list">
+  {% for item in site.academic %}
+    {% assign key = item.title | downcase %}
+    <li><a href="{{ item.link }}">
+      <span class="icon is-small">
+        {% if fa contains key %}
+          <i class="fa fa-{{ item.title|downcase }} fa-fw"></i>
+        {% elsif ai contains key %}
+          <i class="ai ai-{{ item.title|downcase }} fa-fw"></i>
+        {% elsif key == 'google scholar' %}
+          <i class="ai ai-google-scholar ai-fw"></i>
+        {% else %}
+          <i class="fa fa-globe fa-fw"></i>
+        {% endif %}
+      </span>
+      <span class="link-text">{{ item.title }}</span>
+    </a></li>
+  {% endfor %}
+</ul>

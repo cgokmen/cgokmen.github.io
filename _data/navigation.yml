@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Resume"
+    href: /resume/
+  - title: "Research"
+    href: /research/
+  - title: "Teaching"
+    href: "/teaching/"
+  - title: "Projects"
+    href: /projects/
+  - title: "Blog"
+    href: /blog/
