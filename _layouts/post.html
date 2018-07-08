@@ -2,4 +2,36 @@
 layout: default
 ---
 
-{{ content }}
+<section id="content" class="content">
+    <article>
+        <h1 class="title">
+            <a href="{{ page.url | relative_url }}" rel="bookmark"
+               title="Permalink to {{ page.title | escape }}">{{ page.title | escape }}</a></h1>
+
+        <footer class="post-info">
+            <abbr class="published" title="{{ page.date | date_to_xmlschema }}">
+                Published <span class="is-info">{{ page.date | date: site.date_format }}</span> in {{ page.categories | join: ", " }}
+            </abbr>
+        </footer>
+
+        <div class="section">{{ content }}</div>
+        {% comment %}
+        <div class="comments">
+            <h2>Comments !</h2>
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                var disqus_shortname = '{{ DISQUS_SITENAME }}';
+                var disqus_identifier = '{{ article.url }}';
+                var disqus_url = '{{ SITEURL }}/{{ article.url }}';
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//{{ DISQUS_SITENAME }}.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+        {% endcomment %}
+
+    </article>
+</section>

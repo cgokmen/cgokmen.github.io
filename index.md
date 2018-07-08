@@ -6,4 +6,4 @@ layout: home
 title: Welcome!
 ---
 
-I will put some stuff here when I can.
+I'm an Undergraduate Student majoring in Computer Science at the Georgia Institute of Tec

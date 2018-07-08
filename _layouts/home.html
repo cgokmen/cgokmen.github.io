@@ -1,5 +1,31 @@
 ---
-layout: page
+layout: default
 ---
 
-{{ content }}
+<section id="content" class="content">
+    <h1 class="title">{{ page.title }}</h1>
+    <div>{{ content }}</div>
+</section>
+
+<hr>
+
+<section id="articles">
+<div class="is-hidden-print">
+    <h2 class="subtitle">Blog Articles</h2>
+    <div class="columns is-multiline">
+        {% for post in site.posts %}
+        <div class="column is-half-tablet is-one-third-desktop">
+            <div class="card is-fullwidth is-fullheight">
+                <div class="card-content">
+                    <a href="{{ post.url | relative_url }}">
+                        <h3 class="title is-5">{{ post.title | escape }}</h3>
+                        <div class="heading subtitle">{{ post.date | date: site.date_format }}</div>
+                        <div><p>{{ post.content | strip_html | truncatewords:25 }}</p></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+</section>
