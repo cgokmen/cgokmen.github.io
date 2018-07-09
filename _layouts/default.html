@@ -7,7 +7,7 @@
 
 <div class="container">
   <div class="section columns">
-    <div class="column is-one-fifth-desktop is-one-quarter-tablet{% if page.layout == 'home' %} is-hidden-print is-hidden-mobile{% endif %}" id="sidebar">
+    <div class="column is-one-fifth-desktop is-one-quarter-tablet{% if page.layout != 'home' %} is-hidden-print is-hidden-mobile{% endif %}" id="sidebar">
       <aside class="menu">
         {% include bio.html %}
 
