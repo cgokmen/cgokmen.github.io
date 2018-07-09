@@ -9,7 +9,9 @@ CS 2110 (Computer Organization and Programming) with the Fall 2017 semester unde
 Prof. Bill Leahy, and I am presently continuing my work in this capacity.
 
 ### CIOS Survey Results: Overall Effectiveness
-* Fall 2017: **4.87 / 5.00**
+* Fall 2017: 97.3% *(4.87 / 5.00)*
+* Spring 2018: 94.6% *(4.73 / 5.00)*
+* ** Cumulative: 96% *(4.80 / 5.00)* **
 
 ## Georgia Tech - CS 2110 - Computer Organization and Programming
 
