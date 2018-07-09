@@ -28,8 +28,8 @@ Finally, I am a collaborator on *zucchini*, an open-source autograder
 framework for use in programming courses, and I am the author of a number of
 open-source projects such as *particles*, our research project simulator;
 *Coban*, a Turkish TV show aggregator; as well as a host of Minecraft and MTA
-plugins and other works. You can find more about these in my [Portfolio]
-(/portfolio/).
+plugins and other works. You can find more about these in my
+[Portfolio](/portfolio/).
 
 Details about my research adventures as well as other ramblings about
 technology can be found in my [blog](/blog/), with the most recent articles
