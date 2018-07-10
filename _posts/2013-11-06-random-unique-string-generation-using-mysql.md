@@ -5,6 +5,16 @@ date: 2013-11-06 00:05:06.000000000 -05:00
 categories:
 - Programming
 redirect_from: "/random-unique-string-generation-using-mysql/" # In order to preserve older URLs
+excerpt: >-
+    So recently I had rewritten this vehicles script for our Multi Theft
+    Auto server WhySoSerious:RPG. The script was a static vehicles script
+    that read data off of a MySQL Table. What the new version did was it
+    would assign a unique license plate to each newly generated vehicle.
+    However, the problem with this script was that it used Lua to generate
+    the strings and query the vehicles' MySQL table one by one for each
+    generated string, which lagged the server and increased the required
+    number of queries we needed to do before INSERTing the new vehicle into
+    the database.
 ---
 Good evening,
 

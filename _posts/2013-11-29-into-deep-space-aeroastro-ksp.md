@@ -5,6 +5,13 @@ date: 2013-11-29 19:07:52.000000000 -05:00
 categories:
 - Gaming
 redirect_from: "/into-deep-space-aeroastro-ksp/" # In order to preserve older URLs
+excerpt: >-
+    I've been playing Kerbal Space Program for a while now, and in different
+    saves and using different mods I've pretty much been to every planet out
+    there and back. However seeing how many hours I've spent playing this
+    game, what I have in hand at this moment is very little - therefore I
+    decided to make a complete roadmap for what I want to do in Kerbal Space
+    Program and then I'll simply stick to it and update it when necessary.
 ---
 <img src="{{ site.baseurl }}/assets/p4dsREh.png" alt="Kerbal Space Program Banner" class="has-text-centered" style="width:100.0%" />
 

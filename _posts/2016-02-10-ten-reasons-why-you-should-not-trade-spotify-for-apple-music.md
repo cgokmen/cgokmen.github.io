@@ -5,6 +5,14 @@ date: 2016-02-10 21:42:41.000000000 -05:00
 categories:
 - Technology
 redirect_from: "/ten-reasons-why-you-should-not-trade-spotify-for-apple-music/" # In order to preserve older URLs
+excerpt: >-
+    So, it's been two days since I cancelled my Spotify Premium 
+    subscription in order to try out Apple Music. There were actually two main 
+    reasons why I felt like making the switch: I would be able to use 
+    Family Sharing to use Apple Music for myself, mom
+    and dad for just 15₺, and I would also be able to listen to my music
+    from the music app on my iPhone and iPad, and on iTunes on my Mac - all
+    native applications that I would imagine would work really well.
 ---
 So, it's been two days since I cancelled my Spotify Premium subscription
 in order to try out Apple Music.
