@@ -1,0 +1,17 @@
+- name: zucchini
+  description: "An automatic grader tool for use in grading
+  programming assignments, developed for use in Georgia Tech's CS 2110 and
+  beyond. Features LMS integrations as well as adapters for existing
+  containerized grading platforms."
+  actions:
+    - name: GitHub
+      href: https://github.com/zucchini/zucchini
+    - name: Docs
+      href: https://zucchini.readthedocs.io/en/latest/
+
+- name: particles
+  description: "A self-organizing particle system simulator, developed for
+  algorithms research at GT's Theory Lab."
+  actions:
+    - name: GitHub
+      href: https://github.com/skyman/particles
