@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Compiling C for the LC-3
-date: 2018-10-10 21:20:00.000000000 -05:00
+date: 2018-10-11T02:20:00.000Z
 categories:
   - Programming
 excerpt: >-
@@ -50,18 +50,21 @@ The VNC password, when you're done installing, is `cs2110rocks`. The current Mac
 complx is not working with this tutorial, so please get the Docker version.
 
 # The routine
+## Go into the LCC directory
+For this tutorial, stay in the `~/.lc3` directory as your working directory.
+
 ## Write a C program
 Write a C program (samples are below). We suppose it's called `sample.c`.
 
 ## Compile it to assembly
 ```bash
-~/.lc3/lcc -L sample.c -o sample.asm
+./lcc -L sample.c -o sample.asm
 ```
 
 ## Run it on Complx
 Move the `sample.asm` file to the directory you can see from within your Docker container (`Home > host` in the container). Then launch complx in the container. Go to the File menu and click _Clean Load_. Choose the .asm file and load it. Hit the run button to run your code.
 
-# Sample C Files to Play With
+# Examples: Just Running C on the LC-3
 ## Percent Calculator
 Let `A` be the number found at address `0x4000` and `B` be the number found at address `0x4001`. This program calculates the percent value of `A / B` and stores it in address `0x4002`. Copy this to a file named `percent.c` (longer names will cause problems, do it this way). Then compile using `./lcc -L percent.c -o percent.asm`.
 
@@ -143,3 +146,72 @@ main() {
 ```
 
 To run it, compile the code as explained above and _Clean Load_ it into complx. Then hit Run - the numbers should appear in the console in sorted order. This is _NOT_ hard problem to implement manually in assembly :(
+
+# Examples: Calling an assembly function from a C program
+## Fibonacci Sequence
+The following LC-3 assembly file contains the implementation of the Fibonacci function in assembly:
+
+```
+.orig x5000
+;halt
+;STACK .fill xf000
+
+;.global fib
+fib
+; setup
+add r6, r6, -2
+str r7, r6, 0
+add r6, r6, -1
+str r5, r6, 0
+add r5, r6, -1
+
+
+; n <- arg 0
+ldr r0, r5, 4
+and r1, r0, -1
+brz return
+add r0, r0, -1
+brz return
+
+add r6, r6, -1
+str r0, r6, 0
+jsr fib
+ldr r1, r6, 0
+add r6, r6, 2
+ldr r0, r5, 4
+add r1, r0, r1
+
+
+return
+str r1, r5, 3
+
+; teardown
+add r6, r5, 1
+ldr r5, r6, 0
+add r6, r6, 1
+ldr r7, r6, 0
+add r6, r6, 1
+ret
+
+.end
+```
+
+Save this file as `fib.asm`. Then the following C program calls this fibonacci function for a variety of inputs and prints the output:
+
+```C
+int (*fibasm)(int) = (int (*)(int))0x5000U;
+
+int main(void) {
+    int i;
+
+    for (i = 0; i < 20; i++) {
+        int f = fibasm(i);
+        printf("fib(%d) = %d\n", i, f);
+    }
+    return 0;
+}
+```
+
+Note that the `fibasm` pointer points to the fib subroutine using an address literal. Save this file as `test.c`.
+
+Then compile the file: `./lcc -L test.c -o test.asm`. Now append the fib code to the end of this compiled assembly code: `cat fib.asm >> test.asm`. And finally run this file in complx.
