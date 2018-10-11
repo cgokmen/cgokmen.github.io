@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Compiling C for the LC-3
-date: 2018-10-11T02:20:00.000Z
+date: {}
 categories:
   - Programming
 excerpt: >-
@@ -214,4 +214,4 @@ int main(void) {
 
 Note that the `fibasm` pointer points to the fib subroutine using an address literal. Save this file as `test.c`.
 
-Then compile the file: `./lcc -L test.c -o test.asm`. Now append the fib code to the end of this compiled assembly code: `cat fib.asm >> test.asm`. And finally run this file in complx.
+Then compile the file: `./lcc -L test.c -o test.asm`. Now append the fib code to the end of this compiled assembly code: `cat fib.asm >> test.asm`. And finally _File -> Clean Load_ and run this file in complx.
