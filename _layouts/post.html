@@ -14,7 +14,13 @@ layout: default
             </abbr>
         </footer>
 
-        <div class="section">{{ content }}</div>
+        <div class="section">
+            {% if page.toc %}
+                {% include toc.html html=content %}
+            {% endif %}
+
+            {{ content }}
+        </div>
         {% comment %}
         <div class="comments">
             <h2>Comments !</h2>
