@@ -2,6 +2,7 @@
 layout: post
 title: Compiling C for the LC-3
 date: 2018-10-11T02:20:00.000Z
+toc: true
 categories:
   - Programming
 excerpt: >-
