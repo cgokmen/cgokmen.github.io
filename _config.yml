@@ -91,6 +91,11 @@ defaults:
       type: pages
     values:
       layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      toc: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
