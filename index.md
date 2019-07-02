@@ -1,9 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-title: Welcome!
+layout: page
+title: Homepage
+cover: true
+image: /assets/img/hydejack-8.png
 ---
 
 I'm a third-year Undergraduate Student majoring in Computer Science at the
