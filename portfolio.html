@@ -1,0 +1,14 @@
+---
+title: Portfolio
+permalink: /portfolio/
+layout: page
+---
+
+<section id="portfolio">
+    <h2 class="subtitle">Portfolio</h2>
+    <div class="columns is-multiline">
+        {% for item in site.data.portfolio %}
+            item.name
+        {% endfor %}
+    </div>
+</section>
