@@ -55,8 +55,8 @@ menu:
     url: /research/
   - title: "Teaching"
     url: "/teaching/"
-  - title: "Projects"
-    url: /portfolio/
+#  - title: "Projects"
+#    url: /portfolio/
   - title: "Blog"
     url: /blog/
 
