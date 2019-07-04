@@ -16,10 +16,12 @@
 title: Cem Gokmen
 lang: en
 email: cem@cemgokmen.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Cem Gokmen's Personal Website
 tagline: |-
-  Software Engineer @ Google<br>
+  Computer scientist, francophone,<br>
+  very amateur hiker<br><br>
+  SWE @ Google<br>
   San Bruno, CA | Istanbul, TR
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.cemgokmen.com"
@@ -36,9 +38,6 @@ author:
     instagram: sultanskyman
     steam: 76561198023608710
   # TODO: MIGRATE ALL THE CRAP BELOW THIS
-  bio: |-
-    Undergraduate researcher, teaching assistant, francophone.<br /><br />
-    B.Sc. candidate in CS, Georgia Tech '18.
   academic:
     - title: Google Scholar
       link: "https://scholar.google.com/citations?hl=en&user=wCiI8oUAAAAJ"
