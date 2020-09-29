@@ -30,5 +30,5 @@ information about our work and publications.
 I am a collaborator on *zucchini*, an open-source autograder
 framework for use in programming courses, and I am the author of a number of
 open-source projects such as *particles*, our research project simulator;
-*Coban*, a Turkish TV show aggregator; as well as a host of other smaller\
+*Coban*, a Turkish TV show aggregator; as well as a host of other smaller
 projects. You can find more about these on my GitHub, linked on the sidebar.
