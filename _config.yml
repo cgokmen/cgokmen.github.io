@@ -20,9 +20,9 @@ description: >-
   Cem Gokmen's Personal Website
 tagline: |-
   Computer scientist, francophone,<br>
-  very amateur hiker<br><br>
-  SWE @ Google<br>
-  San Bruno, CA | Istanbul, TR
+  extremely amateur hiker & biker<br><br>
+  MSCS '22 @ Stanford University<br>
+  Palo Alto, CA | Istanbul, TR
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.cemgokmen.com"
 keywords: [] # TODO
