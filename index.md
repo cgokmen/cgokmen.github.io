@@ -17,7 +17,7 @@ and higher value to the YouTube Premium subscription product.
 Before Google, I completed my bachelor's degree in Computer Science at Georgia
 Tech between 2016 and 2018, concentrating on Theoretical CS and AI. During this
 time, I spent some semesters in part-time and full-time roles as an
-[Undergraduate Researcher](/research/) and Senior [Teaching Assistant]((/teaching/).
+[Undergraduate Researcher](/research/) and Senior [Teaching Assistant](/teaching/).
 
 My work as an undergraduate researcher, advised by Prof. Dana Randall, was on
 stochastic algorithms for *self-organizing particle systems*, an abstraction of
