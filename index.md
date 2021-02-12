@@ -6,8 +6,17 @@ cover: true
 
 Hi! I'm Cem (pronounced Jem - Turkish phonetics!), I'm currently a Computer
 Science Master's Student at Stanford University, working on the Artificial
-Intelligence concentration. I am currently working as a Course Assistant for
+Intelligence concentration. I am currently working as a researcher at the
+Stanford Vision & Learning Lab and as a Course Assistant for
 [CS107: Computer Organization and Systems](https://cs107.stanford.edu).
+
+At SVL, I'm working with Prof. Silvio Savarese and Prof. Fei-Fei Li on
+[iGibson](http://svl.stanford.edu/igibson/) & iGATUS, a simulation environment
+and a set of common household tasks for training and evaluating embodied learning
+models. Our current research goals include the investigation and application of
+state-of-the-art computer vision and reinforcement learning models for
+establishing meaningful baselines on difficult household robotics tasks such as
+cooking, cleaning, and interactive navigation.
 
 Previously, I was a Software Engineer at Google, on the YouTube Premium
 team in San Bruno, CA. There I worked on full-stack projects including Python
@@ -26,9 +35,3 @@ Emergent Phenomena in Self-Organizing Particle Systems_, is available
 [here](https://smartech.gatech.edu/handle/1853/60893) on
 Georgia Tech's thesis database. Visit my [Research Page](/research/) for more
 information about our work and publications.
-
-I am a collaborator on *zucchini*, an open-source autograder
-framework for use in programming courses, and I am the author of a number of
-open-source projects such as *particles*, our research project simulator;
-*Coban*, a Turkish TV show aggregator; as well as a host of other smaller
-projects. You can find more about these on my GitHub, linked on the sidebar.
