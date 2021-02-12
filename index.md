@@ -7,7 +7,7 @@ cover: true
 Hi! I'm Cem (pronounced Jem - Turkish phonetics!), I'm currently a Computer
 Science Master's Student at Stanford University, working on the Artificial
 Intelligence concentration. I am currently working as a researcher at the
-Stanford Vision & Learning Lab and as a Course Assistant for
+[Stanford Vision & Learning Lab](http://svl.stanford.edu/) and as a Course Assistant for
 [CS107: Computer Organization and Systems](https://cs107.stanford.edu).
 
 At SVL, I'm working with Prof. Silvio Savarese and Prof. Fei-Fei Li on
