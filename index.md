@@ -6,17 +6,16 @@ cover: true
 
 Hi! I'm Cem (pronounced Jem - Turkish phonetics!), I'm currently a Computer
 Science Master's Student at Stanford University, working on the Artificial
-Intelligence concentration. I am currently working as a researcher at the
+Intelligence concentration. I am currently working as a research assistant at the
 [Stanford Vision & Learning Lab](http://svl.stanford.edu/) and as a Course Assistant for
 [CS107: Computer Organization and Systems](https://cs107.stanford.edu).
 
-At SVL, I'm working with Prof. Silvio Savarese and Prof. Fei-Fei Li on
-[iGibson](http://svl.stanford.edu/igibson/) & iGATUS, a simulation environment
-and a set of common household tasks for training and evaluating embodied learning
-models. Our current research goals include the investigation and application of
-state-of-the-art computer vision and reinforcement learning models for
-establishing meaningful baselines on difficult household robotics tasks such as
-cooking, cleaning, and interactive navigation.
+At SVL, I'm working with Prof. Fei-Fei Li on
+[iGibson](http://svl.stanford.edu/igibson/), a simulation environment for training
+and evaluating embodied learning models. Our current research goals include the
+investigation and application of state-of-the-art computer vision and reinforcement
+learning models for establishing meaningful baselines on difficult household robotics
+tasks such as cooking, cleaning, and interactive navigation.
 
 Previously, I was a Software Engineer at Google, on the YouTube Premium
 team in San Bruno, CA. There I worked on full-stack projects including Python
