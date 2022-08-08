@@ -5,10 +5,8 @@ cover: true
 ---
 
 Hi! I'm Cem (pronounced Jem - Turkish phonetics!), I'm currently a Computer
-Science Master's Student at Stanford University, working on the Artificial
-Intelligence concentration. I am currently working as a research assistant at the
-[Stanford Vision & Learning Lab](http://svl.stanford.edu/) and as a Course Assistant for
-[CS107: Computer Organization and Systems](https://cs107.stanford.edu).
+Science Ph.D. Student at Stanford University at the
+[Stanford Vision & Learning Lab](http://svl.stanford.edu/).
 
 At SVL, I'm working with Prof. Fei-Fei Li on
 [iGibson](http://svl.stanford.edu/igibson/), a simulation environment for training
@@ -17,10 +15,11 @@ investigation and application of state-of-the-art computer vision and reinforcem
 learning models for establishing meaningful baselines on difficult household robotics
 tasks such as cooking, cleaning, and interactive navigation.
 
-Previously, I was a Software Engineer at Google, on the YouTube Premium
-team in San Bruno, CA. There I worked on full-stack projects including Python
-and C++ backends and iOS/Android/Web frontends, aiming to bring better benefits
-and higher value to the YouTube Premium subscription product.
+Previously, I was an AI Resident at Google X / Everyday Robots, and Software Engineer
+at Google on the YouTube Premium team. At X, I worked on improving learning-from-demonstrations
+methods to make robots better at performing everyday tasks. At YouTube, I worked on
+full-stack software projects including Python and C++ backends and iOS/Android/Web frontends,
+aiming to bring better benefits and higher value to the YouTube Premium subscription product.
 
 Before Google, I completed my bachelor's degree in Computer Science at Georgia
 Tech between 2016 and 2018, concentrating on Theoretical CS and AI. During this
