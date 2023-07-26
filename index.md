@@ -23,19 +23,13 @@ tasks such as cooking, cleaning, and interactive navigation.
 
 Previously, I was an AI Resident at Google X / Everyday Robots, and Software Engineer
 at Google on the YouTube Premium team. At X, I worked on improving learning-from-demonstrations
-methods to make robots better at performing everyday tasks. At YouTube, I worked on
-full-stack software projects including Python and C++ backends and iOS/Android/Web frontends,
-aiming to bring better benefits and higher value to the YouTube Premium subscription product.
+methods to make robots better at performing everyday tasks. 
 
-Before Google, I completed my bachelor's degree in Computer Science at Georgia
-Tech between 2016 and 2018, concentrating on Theoretical CS and AI. During this
-time, I spent some semesters in part-time and full-time roles as an
-[Undergraduate Researcher](/research/) and Senior [Teaching Assistant](/teaching/).
-
+I completed my bachelor's degree in Computer Science at Georgia
+Tech between 2016 and 2018, concentrating on Theoretical CS and AI.
 My work as an undergraduate researcher, advised by Prof. Dana Randall, was on
 stochastic algorithms for *self-organizing particle systems*, an abstraction of
 programmable matter. My undergraduate thesis, titled _Markov Chain Algorithms for
 Emergent Phenomena in Self-Organizing Particle Systems_, is available
 [here](https://smartech.gatech.edu/handle/1853/60893) on
-Georgia Tech's thesis database. Visit my [Research Page](/research/) for more
-information about our work and publications.
+Georgia Tech's thesis database.
