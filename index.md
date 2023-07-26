@@ -6,13 +6,19 @@ cover: true
 
 Hi! I'm Cem (pronounced Jem - Turkish phonetics!), I'm currently a Computer
 Science Ph.D. Student at Stanford University at the
-[Stanford Vision & Learning Lab](http://svl.stanford.edu/).
+[Stanford Vision & Learning Lab](http://svl.stanford.edu/) advised by Prof. Fei-Fei Li, and
+a Research Scientist Intern at NVIDIA Research advised by Dr. Jim Fan, Dr. Yuke Zhu & Dr. Anima Anandkumar.
 
-At SVL, I'm working with Prof. Fei-Fei Li on
-[iGibson](http://svl.stanford.edu/igibson/), a simulation environment for training
-and evaluating embodied learning models. Our current research goals include the
-investigation and application of state-of-the-art computer vision and reinforcement
-learning models for establishing meaningful baselines on difficult household robotics
+My research focus is developing methods and platforms to support the development of robotic
+agents that can successfully support humans in our everyday activities. 
+
+My recent work includes [BEHAVIOR](http://behavior.stanford.edu), a benchmark and simulation
+environment for training and evaluating embodied learning models on long-horizon household activities.
+Our latest publication on this series of work, BEHAVIOR-1K, was nominated for a **Best Paper Award** at
+CoRL 2022.
+
+Nowadays I'm working on applying state-of-the-art computer vision and robot learning
+methods (IL/RL) as well as LLMs to establishing meaningful baselines on difficult household robotics
 tasks such as cooking, cleaning, and interactive navigation.
 
 Previously, I was an AI Resident at Google X / Everyday Robots, and Software Engineer
