@@ -49,10 +49,10 @@ menu:
     url: /
   - title: "Resume"
     url: /resume/
-  - title: "Research"
-    url: /research/
-  - title: "Teaching"
-    url: "/teaching/"
+#   - title: "Research"
+#     url: /research/
+#   - title: "Teaching"
+#     url: "/teaching/"
 #  - title: "Projects"
 #    url: /portfolio/
   - title: "Blog"
