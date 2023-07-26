@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-cover: true
+# cover: true
 ---
 
 Hi! I'm Cem (pronounced Jem - Turkish phonetics!), I'm currently a Computer
