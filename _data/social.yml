@@ -202,3 +202,12 @@ paypal:
 download:
   name: Download
   icon: icon-box-add
+google-scholar:
+  name: Google Scholar
+  icon: ai ai-google-scholar
+arxiv:
+  name: arXiv
+  icon: ai ai-arxiv
+orcid:
+  name: arXiv
+  icon: ai ai-orcid

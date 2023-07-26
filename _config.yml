@@ -35,14 +35,9 @@ author:
     linkedin: cgokmen
     github: skyman
     twitter: cgokmenAI
-  # TODO: MIGRATE ALL THE CRAP BELOW THIS
-  academic:
-    - title: Google Scholar
-      link: "https://scholar.google.com/citations?hl=en&user=wCiI8oUAAAAJ"
-    - title: ORCID
-      link: "https://orcid.org/0000-0001-9446-6052"
-    - title: arXiv
-      link: "http://arxiv.org/a/gokmen_c_1"
+    google-scholar: "https://scholar.google.com/citations?hl=en&user=wCiI8oUAAAAJ"
+    arxiv: "http://arxiv.org/a/gokmen_c_1"
+    orcid: "https://orcid.org/0000-0001-9446-6052"
 
 menu:
   - title: "Home"
