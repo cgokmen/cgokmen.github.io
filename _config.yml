@@ -19,10 +19,9 @@ email: cem@cemgokmen.com
 description: >-
   Cem Gokmen's Personal Website
 tagline: |-
-  Computer scientist, francophone,<br>
-  extremely amateur hiker & biker<br><br>
-  Ph.D. Student @ Stanford University<br>
-  Mountain View, CA | Istanbul, TR
+  AI researcher, computer scientist,<br>
+  newbie hiker & biker, hobbyist francophone<br><br>
+  Ph.D. Candidate @ Stanford University
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.cemgokmen.com"
 keywords: [] # TODO
@@ -123,7 +122,7 @@ defaults:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
+google_analytics:      G-X1R3EE9KTY
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
@@ -283,8 +282,8 @@ remote_theme: qwtel/hydejack@v8.4.0
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
-# twitter:
-#   username:            <shortname>
+twitter:
+  username:            cgokmenAI
 
 # Used for Facebook open graph
 # facebook:
@@ -293,11 +292,12 @@ remote_theme: qwtel/hydejack@v8.4.0
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name: Cem Gokmen
+  links:
+    - https://www.linkedin.com/in/cgokmen/
+    - https://twitter.com/cgokmenAI
+    - https://github.com/cgokmen
 
 # Other Plugins
 # ---------------------------------------------------------------------------------------

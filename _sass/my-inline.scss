@@ -1,1 +1,12 @@
 // You can add CSS rules here that will be inlined into each document.
+
+// We want to remove the weird margin on headers
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+// Set the hr vertical margins to 20px
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
